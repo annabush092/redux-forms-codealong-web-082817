@@ -28,7 +28,6 @@ class CreateTodo extends Component {
           </p>
           <input type="submit" />
         </form>
-        {this.props.store.getState().todos}
       </div>
     )
   }
